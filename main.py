@@ -22,7 +22,6 @@ def get_key(val):
 
 def splitRow(line: str):
     global dictBetweenIdAndName
-    global numOfParticipants
     if (len(line.split("-")) == 1):
         return line
     if(line.__contains__("הוסיף/ה")):
